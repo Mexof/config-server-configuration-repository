@@ -1,2 +1,23 @@
+spring:
+  application:
+    name: customer-service
+  kafka:
+    bootstrap-servers: [ localhost:9001, localhost:9002, localhost:9003 ]
+
 configuration:
-  projectName: "SpringCloud2"
+  projectName: 'Spring Cloud'
+
+eureka:
+  client:
+    region: default
+    registry-fetch-interval-seconds: 5
+
+logging:
+  level:
+    ROOT: DEBUG
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
