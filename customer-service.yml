@@ -3,7 +3,7 @@ spring:
     name: customer-service
 
 configuration:
-  projectName: 'Spring Cloud4'
+  projectName: 'Spring Cloud5'
 
 eureka:
   client:
