@@ -9,7 +9,7 @@ zuul:
   routes:
     greetingsClient:
       serviceId: greetings-client
-      path: /lets/*
+      path: /lets/**
 
 eureka:
   client:
