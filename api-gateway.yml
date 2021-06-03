@@ -7,7 +7,7 @@ server:
   
 zuul:
   routes:
-    greetings-client:
+    greetingsClient:
       serviceId: greetings-client
       path: /lets/*
 
